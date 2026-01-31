@@ -16,12 +16,26 @@ const EducationSection = () => {
 
   const educationData = [
     {
+      degree: "Bachelor of Science (BSC) in Computer Science and Engineering",
+      school: "United International University",
+      mascot: "💻",
+      year: "2020-2025",
+      achievements: ["GPA: 2.8/4.0"],
+      skills: [
+        "Software Architecture",
+        "Software Engineering",
+        "Human-Computer Interaction",
+      ],
+      description:
+        "Comprehensive study of computer science and software engineering principles with hands-on experience in building scalable applications and understanding user-centered design methodologies.",
+    },
+    {
       degree: "Secondary School Certificate (SSC)",
       school: "Motijheel Government Boys' High School",
       mascot: "📘",
       year: "2006-2017",
       achievements: ["GPA: 5.00", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      skills: ["Mathematics", "Physics", "Chemistry", "Biology", "ICT"],
       description:
         "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
     },
@@ -31,7 +45,7 @@ const EducationSection = () => {
       mascot: "📗",
       year: "2017-2019",
       achievements: ["GPA: 5.00", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      skills: ["Mathematics", "Physics", "Chemistry", "Biology", "ICT"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of core sciences.",
     },
