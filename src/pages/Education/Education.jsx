@@ -30,16 +30,6 @@ const EducationSection = () => {
         "Comprehensive study of computer science and software engineering principles with hands-on experience in building scalable applications and understanding user-centered design methodologies.",
     },
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Motijheel Government Boys' High School",
-      mascot: "📘",
-      year: "2006-2017",
-      achievements: ["GPA: 5.00", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology", "ICT"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
       degree: "Higher Secondary Certificate (HSC)",
       school: "Bir Shrestha Noor Mohammad Public College",
       mascot: "📗",
