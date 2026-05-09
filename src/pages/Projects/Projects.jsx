@@ -26,18 +26,18 @@ const projects = [
     color: "#00FFFF",
     technologies: ["Node JS,", " Typescript,", " Express,", " React,", " MongoDB,", " Sentry,", " Vitest"],
     githubLink: "https://github.com/siddik-official/evolution-gadget",
-    liveLink: "https://converso-pearl.vercel.app/",
+    liveLink: "https://evolutiongadget.com/",
   },
   {
-    title: "🚀 Movix",
+    title: "🚀 VentSports",
     description:
-      "🚀 A dynamic web app provided detailed information about movie & tv series. 💻✨",
+      " Premium jerseys & sportswear with unbeatable deals — all in one place!",
     src: "water.jpg",
-    link: "https://i.postimg.cc/zGVkwdHV/Screenshot-2025-04-12-at-3-27-06-AM.png",
-    color: "#8f89ff",
-    technologies: ["React JS,", " Redux Toolkit,", " React Router,", " TMDb API,", " Axios,", " CSS Modules"],
-    githubLink: "https://github.com/FARDIN98/movix",
-    liveLink: "https://movix-sites.vercel.app/",
+    link: "https://i.postimg.cc/8k0Mbdtf/ventsports.png",
+    color: "#ffc489",
+    technologies: ["React JS,", " Next Js,", " React Router,", " TMDb API,", " Axios,", " CSS Modules"],
+    githubLink: "https://github.com/siddik-official/ventsports",
+    liveLink: "https://www.ventsports.shop/",
   },
 ];
 
