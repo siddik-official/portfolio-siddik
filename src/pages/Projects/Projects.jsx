@@ -22,11 +22,11 @@ const projects = [
     description:
       "A modern, scalable e-commerce platform specialized in gadget sales and evaluations, built with React TypeScript frontend and Node.js Express TypeScript backend.🔥.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/c4PvTB7Q/evolution-gadget-homepage.png",
+    link: "https://i.postimg.cc/Qdsnd4P3/evulationgadget-homepage.png",
     color: "#00FFFF",
     technologies: ["Node JS,", " Typescript,", " Express,", " React,", " MongoDB,", " Sentry,", " Vitest"],
-    githubLink: "https://github.com/siddik-official/evolution-gadget",
-    liveLink: "https://evolutiongadget.com/",
+    githubLink: "https://github.com/siddik-official/evolutiongadget",
+    liveLink: "https://evolutiongadget.vercel.app/",
   },
   {
     title: "🚀 VentSports",
