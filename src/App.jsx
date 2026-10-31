@@ -2,6 +2,7 @@
 import { useState, lazy, Suspense } from "react";
 import "./assets/css/index.css";
 import Header from "./pages/Header/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -49,6 +50,7 @@ export default function App() {
           </Routes>
         )}
       </Suspense>
+      <Analytics />
     </>
   );
 }
