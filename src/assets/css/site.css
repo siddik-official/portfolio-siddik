@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  ::selection {
+    @apply bg-ink text-paper;
+  }
+
+  /* Lenis smooth scrolling */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* Section eyebrow, e.g. "(Selected work)" */
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.14em];
+  }
+
+  /* Italic serif accent words inside sans headings */
+  .accent {
+    @apply font-serif font-normal italic tracking-normal;
+  }
+
+  .display {
+    @apply font-medium leading-[0.82] tracking-[-0.055em];
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-[12px] leading-none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
